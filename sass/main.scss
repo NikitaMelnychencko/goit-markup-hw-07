@@ -1,6 +1,19 @@
+$primary-text-color: #757575;
+$tiile-text-color: #212121;
+$accent-color: #2196f3;
+$accent-secondary-color: #188ce8;
+$primary-background-color: #ffffff;
+$secondary-background-color: #2f303a;
+$third-background-color: #f5f4fa;
+$logo-color: #000000;
+$contact-text-footer-color: rgba(255, 255, 255, 0.6);
+
 body {
   margin: 0;
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
+  background-color: $primary-background-color;
+  color: $primary-text-color;
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
