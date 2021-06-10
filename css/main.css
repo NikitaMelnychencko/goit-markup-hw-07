@@ -438,7 +438,7 @@ textarea {
   color: #000000;
 }
 
-.container--flex,
+.header-container--flex,
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,9 +458,9 @@ textarea {
 
 .site-nav__link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--tiile-text-color);
+  padding-top: 31px;
+  padding-bottom: 31px;
+  color: .site-nav__link tiile-text-color;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -512,8 +512,8 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 31px;
+  padding-bottom: 31px;
   color: #757575;
   font-weight: 500;
   line-height: 1.14;
@@ -547,8 +547,8 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/baner.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/baner.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hiro.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hiro.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -870,7 +870,10 @@ footer {
   padding-bottom: 60px;
 }
 
-.container--flex {
+.footer-container--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;

@@ -62,9 +62,9 @@
   padding: 0;
 
   border-radius: 50%;
-  background: #ffffff;
+  background: $primary-background-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #000000;
+  color: $logo-color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

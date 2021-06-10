@@ -131,7 +131,7 @@ textarea {
 .form__icon-check {
   width: 16px;
   height: 15px;
-  border: 2px solid #212121;
+  border: 2px solid $tiile-text-color;
   border-radius: 2px;
 
   transform: scale(0.9);
@@ -164,7 +164,7 @@ textarea {
   height: 18px;
   top: 29px;
   left: 12px;
-  fill: #000000;
+  fill: $logo-color;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
